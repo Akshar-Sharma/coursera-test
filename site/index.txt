@@ -8,6 +8,10 @@ background-color: color;
 
 opacity: ##;
 
+text-align: center;
+
+text-transform: capitalize;
+
 Pseudo-Class Selectors -
 :link
 :visited
@@ -32,3 +36,29 @@ a:link, a:visited {
 <p style="text-align: center;">
 
 Lecture 16 - How to put CSS into a different file
+
+Top, Right, Bottom, Left
+
+box-sizing: border-box;
+
+overflow: auto;
+
+* selector
+
+#bg {
+	width: 500px;
+	height: 500px;
+	background-image: url("family.jpg")
+}
+
+
+Lecture 21:
+float: [direction];
+clear: [direction];
+
+Lecture 22:
+p {
+	position: relative;
+	top: 50px;
+	left: 50px;
+}

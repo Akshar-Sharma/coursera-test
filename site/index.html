@@ -8,7 +8,7 @@ div {
 	color:orange;
 }
 p, div, h2, h3{
-	font-family: "Comic Sans MS", cursive, sans-serif;
+	font-family: 'Playfair Display', serif;
 }
 
 p, div{
@@ -54,14 +54,44 @@ a:hover, a:active {
 #box {
 	background-color: blue;
 	padding: 10px;
+	border: 5px solid black;
+	margin: 30px;
 }
 #content {
 	background-color: green;
 	text-align: center;
 }
+#l1 {
+	width: 80px;
+	height: 100px;
+	background-color: red;
+	padding: 20px;
+}
+#l2 {
+	width: 90px;
+	height: 100px;
+	background-color: blue;
+	padding: 20px;
+	color: violet;
+	position:relative;
+	bottom: 184px;
+	left: 124px;
+}
+#p1 {
+	padding-left: 35px;
+}
+#p2 {
+	padding-left: 38px;
+}
+#span1 {
+	position: relative;
+	bottom: 184px;
+	left: 124px;
+}
+
 </style>
 </head>
-<body>
+<body id="bg">
 <h1><font color="red">Akshar and his Family Are Amazing</font></h1>
 <div id="box">
 	<div id="content">Ok. This is yer boi Akshar's website. It's great that yer here. Akshar is super cool and everything. You are so lucky you're here.
@@ -98,6 +128,29 @@ a:hover, a:active {
 	</ul>
 <img src="fortnitepic.jpg" width="600" height="352.5" alt="fortnite picture">
 <img src="minecraftpic.jpg" width="600" height="352.5" alt="minecraft picture">
+
+<h3 id="compare">Comparing Akshar and Anmol</h3>
+<p id="p1">
+	<span>Akshar</span>
+	<ul id="l1">
+		<li>Is Smart</li>
+		<li>Is Cool</li>
+		<li>Is Funny</li>
+		<li>Is Awesome</li>
+		<li>Is Nice</li>
+	</ul>
+</p>
+
+<p id="p2">
+	<span id="span1">Anmol</span>
+	<ul id="l2">
+		<li>Not Smart</li>
+		<li>Not Cool</li>
+		<li>Not Funny</li>
+		<li>Not Awesome</li>
+		<li>Not Nice</li>
+	</ul>
+</p>
 
 </body>
 </html>
