@@ -4,13 +4,13 @@
 
 h1 {
 	font-family: 'Playfair Display', serif;
-	color: black;
+	color: white;
 	font-weight: bold;
 	font-size: 175%;
 }
 
 body {
-	background-color: white;
+	background-color: indigo;
 }
 
 p {
@@ -28,7 +28,7 @@ p {
 }
 
 section {
-	background-color: gray;
+	background-color: orange;
 	width: 100%;
 	height: auto;
 	font-family: Helvetica;
@@ -38,6 +38,7 @@ section {
 }
 
 #chicken {
+	border: 1px solid black;
 	text-align: center;
 	width: 30%;
 	margin-left: 70%;
@@ -47,9 +48,11 @@ section {
 	margin-bottom: 0;
 	margin-top: 0;
 	padding: 5px;
+	background-color: green;
 }
 
 #beef {
+	border: 1px solid black;
 	text-align: center;
 	width: 30%;
 	margin-left: 70%;
@@ -59,9 +62,11 @@ section {
 	margin-bottom: 0;
 	margin-top: 0;
 	padding: 5px;
+	background-color: red;
 }
 
 #sushi {
+	border: 1px solid black;
 	text-align: center;
 	width: 30%;
 	margin-left: 70%;
@@ -71,6 +76,7 @@ section {
 	margin-bottom: 0;
 	margin-top: 0;
 	padding: 5px;
+	background-color: yellow;
 }
 
 #chicken-div {
@@ -96,8 +102,8 @@ section {
 
 #header-nav {
   border: 0;
-  background-color: gray;
-  color: black;
+  background-color: blue;
+  color: white;
   border: solid black;
 }
 
@@ -116,7 +122,7 @@ section {
 
 .nav-brand {
   font-family: 'IBM Plex Serif', serif;
-  color: black;
+  color: white;
   font-size: 1.5em;
 }
 
