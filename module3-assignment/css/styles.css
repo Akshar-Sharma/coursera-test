@@ -3,13 +3,14 @@
 }
 
 h1 {
-	font-family: Brushstroke, fantasy;
-	color: #000000;
+	font-family: 'Playfair Display', serif;
+	color: black;
+	font-weight: bold;
+	font-size: 175%;
 }
 
 body {
-	background-image: url("background.jpg");
-	background-color: #FEF5CA;
+	background-color: white;
 }
 
 p {
@@ -27,8 +28,7 @@ p {
 }
 
 section {
-	border:	1px solid black;
-	background-color: #00FF99;
+	background-color: gray;
 	width: 100%;
 	height: auto;
 	font-family: Helvetica;
@@ -38,7 +38,6 @@ section {
 }
 
 #chicken {
-	border: 1px solid black;
 	text-align: center;
 	width: 30%;
 	margin-left: 70%;
@@ -48,11 +47,9 @@ section {
 	margin-bottom: 0;
 	margin-top: 0;
 	padding: 5px;
-	background-color: #FFFF00;
 }
 
 #beef {
-	border: 1px solid black;
 	text-align: center;
 	width: 30%;
 	margin-left: 70%;
@@ -62,11 +59,9 @@ section {
 	margin-bottom: 0;
 	margin-top: 0;
 	padding: 5px;
-	background-color: #FF1439;
 }
 
 #sushi {
-	border: 1px solid black;
 	text-align: center;
 	width: 30%;
 	margin-left: 70%;
@@ -75,8 +70,6 @@ section {
 	font-size: 125%;
 	margin-bottom: 0;
 	margin-top: 0;
-	background-color: #6495ED;
-	color: white;
 	padding: 5px;
 }
 
@@ -98,29 +91,32 @@ section {
 .navbar-brand {
   font-size: 2em;
   border: 0 0 10px 10px;
-  color: #FFFFFF;
+  color: white;
 }
 
 #header-nav {
   border: 0;
-  background-color: #FC5F06;
-  color: #FFFFFF;
+  background-color: gray;
+  color: black;
+  border: solid black;
 }
 
 .navbar-header button.navbar-toggle, .navbar-header .icon-bar {
-  border: 1px solid #61122f;
+  border: 1px solid black;
 }
+
 .navbar-header button.navbar-toggle {
   clear: both;
   margin-top: -30px;
 }
 
 .nav-header {
-  background-color: #FFFFFF;
+  background-color: gray;
 }
 
 .nav-brand {
-  color: #FFFFFF;
+  font-family: 'IBM Plex Serif', serif;
+  color: black;
   font-size: 1.5em;
 }
 
