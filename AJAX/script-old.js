@@ -20,7 +20,7 @@ function sayHello () {
 	if (name === "Cameron") {
 		var title =
 		document.querySelector("#title")
-		.textContent = "Akshar loves Cameron! Most beautiful";
+		.textContent = "Akshar loves Cameron! Most beautiful girl ever!";
 
 	}
 
