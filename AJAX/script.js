@@ -13,6 +13,6 @@ function sayHello () {
 	if (name === "Akshar") {
 		var title =
 		document.querySelector("#title")
-		.textContent = "Akshar is super cool!";
+		.textContent = "Akshar is amazing!";
 	}
 }
