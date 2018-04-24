@@ -37,4 +37,18 @@ function sayHello () {
 		.textContent = "Marissa is so ugly. Vedant doesn't have a chance with her!";
 
 	}
+
+	if (name === "Gus") {
+		var title =
+		document.querySelector("#title")
+		.textContent = "Stupid Ass Faggot, who always does whatever Kyle says even if Kyle does dumb things! No matter how nice Akshar is to him, he always goes back to Kyle!";
+
+	}
+
+	if (name === "Kyle") {
+		var title =
+		document.querySelector("#title")
+		.textContent = "One word: Faggot!";
+
+	}
 }
