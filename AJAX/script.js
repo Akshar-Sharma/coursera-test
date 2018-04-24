@@ -15,4 +15,10 @@ function sayHello () {
 		document.querySelector("#title")
 		.textContent = "Akshar is amazing!";
 	}
+
+	if (name === "Gus") {
+		var title =
+		document.querySelector("#title")
+		.textContent = "Gus is super cool!";
+	}
 }
